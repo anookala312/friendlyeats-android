@@ -23,3 +23,11 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+# Keep Firebase Auth classes
+-keep class com.google.firebase.** { *; }
+
+# Keep Google Play Services Auth classes
+-keep class com.google.android.gms.auth.api.credentials.** { *; }
+
+# Keep FirebaseUI classes
+-keep class com.firebase.ui.auth.** { *; }
